@@ -22,3 +22,5 @@ pip install numpy==1.26.4
 3. `python rm_select.py` to select the best response
 4. `python eval_multiple_rm.py` to evaluate the accuracy for the reward model selected response
 5. `python eval_multiple.py` to calculate the average accuracy of multiple responses
+
+**You might need to modify the file path, model path inside the files before running**

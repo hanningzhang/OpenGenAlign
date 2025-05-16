@@ -25,3 +25,18 @@ pip install numpy==1.26.4 # Note that the numpy version should be `numpy<2.0`.  
 pip install wandb
 ```
 
+## Instructions
+
+training the reward model
+```
+accelerate launch llama3_rm.py --model_name {Your Model} --max_length 4096 --train_set_path {JSON files} --deepspeed ./deepspeed_configs/deepspeed_3.json
+```
+`train_data_o3.json` is the OpenGenAlign dataset
+`train_rlhflow.json` is the Baseline dataset in Section 6
+`train_all.json` is the MixReward dataset in Section 6
+
+## Evaluation
+
+`python eval.py` to evaluate on the OpenGenAlign Benchmark
+`python eval_rewardbench.py` to evaluate on the RewardBench
+

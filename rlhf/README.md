@@ -37,3 +37,5 @@ pip install deepspeed
 4. `python test_sample` to sample response using the intial model and the post-rlhf model
 5. `python eval.py` to use reward model to compare the response from Step 4
 6. `python o3_overall_eval.py` and `o3_overall_result` to use o3 to compare the response from Step 4
+
+**You might need to modify the file path, model path inside the files before running**

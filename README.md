@@ -1,5 +1,6 @@
 # OpenGenAlign
 
+Please find our dataset at https://huggingface.co/datasets/HanningZhang/OpenGenAlign
 ### Reward Model training (Section 5.1 and Section 6)
 go to `/rm`
 
